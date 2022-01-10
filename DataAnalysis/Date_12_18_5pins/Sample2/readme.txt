@@ -1,0 +1,1 @@
+Sample 2, with sigma = 10.28mS - 10.40mS

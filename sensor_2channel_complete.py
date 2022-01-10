@@ -14,7 +14,7 @@ spi = spidev.SpiDev()
 spi.open(1,0)
 spi.mode = 0b00
 #The max sampling speed can be change probabily up to 7KHz, 60KHz for max_speed_hz
-spi.max_speed_hz = 1000
+spi.max_speed_hz = 2000
 spi.writebytes([0b01011000, 0b10101001, 0b00000000, 0b00001111, 0b00111111, 0b01000000, 0b01010000, 0b00000000, 0b00000000, 0b00000000])
 gpio.output(37, 1)
 gpio.output(37, 0)

@@ -1,0 +1,4 @@
+On the board ------ Four Probes -------- Python Code
+
+Channel 0(1)    ------ Outer pairs -------- 2channel
+channel 2    ------ Inner Pairs -------- 1channel
